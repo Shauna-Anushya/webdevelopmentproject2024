@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+      <link rel="stylesheet" href="style.css">
+      <title>Mini Game</title>
+   </head>
+   <body class="MiniGame-page">
+    <section class="header">
+        <nav>
+            <a href="Homepage.html" class="logo"><img src="images/logo.png" class="logo" alt="Study Mastery Logo"></a>
+            <div class="nav-bar">
+                <ul>
+                    <li class="hideOnMobile"><a href="Homepage.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="AboutUs.html">About Us</a></li>
+                    <li class="hideOnMobile"><a href="LearningResources.html">Resources</a></li>
+                    <li class="hideOnMobile"><a href="MiniGame.html">Test</a></li>
+                    <li class="hideOnMobile"><a href="ContactUs.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+       
+        <div id="game-container">
+           <h1>Learning Match Game</h1>
+            <p>Match each learning tip with its corresponding benefit.</p>
+           <div class="game-grid">
+               <div class="card" data-tip="tip1">Take regular breaks</div>
+               <div class="card" data-tip="benefit1">Improves focus</div>
+               <div class="card" data-tip="tip2">Organize your study space</div>
+               <div class="card" data-tip="benefit2">Reduces distractions</div>
+               <div class="card" data-tip="tip3">Practice with quizzes</div>
+               <div class="card" data-tip="benefit3">Reinforces learning</div>
+           </div>
+           <button id="reset-button">Reset Game</button>
+         <p id="result"></p>
+      </div>
+    </section>
+      <script src="game.js"></script>
+   </body>
+
+</html>
